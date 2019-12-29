@@ -3,11 +3,37 @@
 <head>
   <meta charset="utf-8">
   <title>Compteur Global Game Jam</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="./js/compteur.js"></script>
+  <link rel="stylesheet" href="style/styleCompteur.css">
+  <link rel="stylesheet" href="style/flipclock.css">
+
+
 </head>
 <body>
-	<div id="compte_a_rebours"></div>
+	<img id="logoGGJ" src="images/logo.png" width="130px" height="130px">
+	<h1>LA GLOBAL GAME JAM</h1>
+	<h2>COMMENCE DANS : </h2>
+	
+	
+
+
+	<div id="compte_a_rebours">
+		<div class="clock">
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+			<script src="./framework/flipclock.min.js"></script>
+			<script type="text/javascript">
+				var dateActuelle = new Date();
+				var dateDebut = new Date("Jan 31 18:00:00 2020");
+				var total_secondes = (dateDebut - dateActuelle) / 1000;
+	           	var clock = new FlipClock($('.clock'), total_secondes, {
+					clockFace: 'DailyCounter',
+					countdown: true
+				});
+	        </script>
+		</div>
+	</div>
+
+	
+	<script src="./js/compteur.js"></script>
 </body>
 </html>
 
