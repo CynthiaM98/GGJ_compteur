@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "policeTitre";
-  src: url("./policeTitre.ttf");
+  font-family: "helmetRegular";
+  src: url("./Helmet-Regular.ttf");
 }
 
 /* base font-size corresponds to 10px and is adapted to rem unit */
@@ -17,26 +17,6 @@ body {
 	line-height: 1.5; /* adapt to your design */
 }
 
-h1 {
-	font-family: "policeTitre";
-	font-size: 5em;
-	font-style: center;
-	display: block;
-	left: 50%;
-	transform: translateX(32%);
-	margin-bottom: 0;
-	margin-top: 10px;
-}
-
-h2 {
-	font-family: "policeTitre";
-	margin-top: 2px;
-	font-size: 4em;
-	font-style: center;
-	display: block;
-	left: 50%;
-	transform: translateX(38%);
-}
 
 #logoGGJ {
 	position: absolute;
@@ -45,12 +25,34 @@ h2 {
 
 }
 
+
+
 #compte_a_rebours {
 	position: relative;
 	display: block;
 	left: 50%;
-	transform: translateX(-28%);
+	transform: translateX(-30%);
 }
 
+h1 {
+	font-family: "helmetRegular";
+	font-size: 5em;
+	font-style: center;
+	display: block;
+	left: 50%;
+	transform: translateX(24%);
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+h2 {
+	font-family: "helmetRegular";
+	margin-top: 2px;
+	font-size: 4em;
+	font-style: center;
+	display: block;
+	left: 50%;
+	transform: translateX(33%);
+}
 
 
