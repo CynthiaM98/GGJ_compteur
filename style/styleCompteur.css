@@ -30,17 +30,15 @@ body {
 #compte_a_rebours {
 	position: relative;
 	display: block;
-	left: 50%;
-	transform: translateX(-30%);
+	width: 80%;
+	margin: 10px auto;
 }
 
 h1 {
 	font-family: "helmetRegular";
 	font-size: 5em;
-	font-style: center;
 	display: block;
-	left: 50%;
-	transform: translateX(24%);
+	text-align: center;
 	margin-bottom: 0;
 	margin-top: 10px;
 }
@@ -49,10 +47,8 @@ h2 {
 	font-family: "helmetRegular";
 	margin-top: 2px;
 	font-size: 4em;
-	font-style: center;
 	display: block;
-	left: 50%;
-	transform: translateX(33%);
+	text-align: center
 }
 
 footer {
